@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+    <!-- Remotes -->
+    <remote name="razinares"
+        fetch="https://github.com/razinares/" />
+    <remote name="evolution-x"
+        fetch="https://github.com/Evolution-X-Devices/" />
+
+    <!-- Device -->
+    <project path="device/google/lynx" 
+        name="device_google_lynx"
+        remote="razinares" 
+        revision="Evolution-X" />
+    <project path="device/google/gs201" 
+        name="device_google_gs201"
+        remote="razinares" 
+        revision="evolution-x" />
+    <project path="device/google/gs101" 
+        name="device_google_gs101"
+        remote="evolution-x" 
+        revision="udc" />
+    <project path="device/google/gs-common" 
+        name="device_google_gs-common"
+        remote="evolution-x" 
+        revision="udc" />
+    <project path="packages/apps/ViPER4AndroidFX"
+	name="packages_apps_ViPER4AndroidFX"
+	remote="razinares"
+	revision="v4a" />
+
+    <!-- Vendor -->
+    <project path="vendor/google/lynx" 
+        name="proprietary_vendor_google_lynx"
+        remote="razinares" 
+        revision="lineage-21" />
+
+    <!-- Kernel -->
+    <project path="device/google/lynx-kernel" 
+        name="device/google/lynx-kernel"
+        remote="aosp-lynx" 
+        revision="main"
+	clone-depth="1" />
+</manifest>
+
