@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+    <!-- Remotes -->
+    <remote name="razinares"
+        fetch="https://github.com/razinares/" />
+    <remote name="lineage"
+	fetch="https://github.com/LineageOS/" />
+    <remote name="themuppets"
+	fetch="https://github.com/TheMuppets/" />
+    <remote name="evolution-x"
+	fetch="https://github.com/Evolution-X-Devices/" />
+ 
+    <!-- Device -->
+    <project path="device/oneplus/lemonade" 
+        name="device_oneplus_lemonade"
+        remote="razinares" 
+        revision="evolution-x" />
+    <project path="device/oneplus/sm8350-common" 
+        name="device_oneplus_sm8350-common"
+        remote="razinares" 
+        revision="evolution-x" />
+    <project path="hardware/oplus" 
+        name="hardware_oplus"
+        remote="evolution-x" 
+	revision="udc" />
+
+    <!-- Vendor -->
+    <project path="vendor/oneplus/lemonade" 
+        name="proprietary_vendor_oneplus_lemonade"
+        remote="themuppets" 
+        revision="lineage-21" />
+    <project path="vendor/oneplus/sm8350-common" 
+        name="proprietary_vendor_oneplus_sm8350-common"
+        remote="themuppets" 
+        revision="lineage-21" />
+
+    <!-- Kernel -->
+    <project path="kernel/oneplus/sm8350" 
+        name="android_kernel_oneplus_sm8350"
+        remote="lineage" 
+        revision="lineage-21"
+	clone-depth="1" />
+</manifest>
