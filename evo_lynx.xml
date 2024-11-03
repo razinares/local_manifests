@@ -11,19 +11,19 @@
     <project path="device/google/lynx" 
         name="device_google_lynx"
         remote="razinares" 
-        revision="Evolution-X" />
+        revision="evox-10" />
     <project path="device/google/gs201" 
         name="device_google_gs201"
         remote="razinares" 
-        revision="evolution-x" />
+        revision="evox-10" />
     <project path="device/google/gs101" 
         name="device_google_gs101"
         remote="evolution-x" 
-        revision="udc" />
+        revision="vic" />
     <project path="device/google/gs-common" 
         name="device_google_gs-common"
         remote="evolution-x" 
-        revision="udc" />
+        revision="vic" />
     <project path="packages/apps/ViPER4AndroidFX"
 	name="packages_apps_ViPER4AndroidFX"
 	remote="razinares"
@@ -33,13 +33,12 @@
     <project path="vendor/google/lynx" 
         name="proprietary_vendor_google_lynx"
         remote="razinares" 
-        revision="lineage-21" />
+        revision="lineage-22.0" />
 
     <!-- Kernel -->
-    <project path="device/google/lynx-kernel" 
-        name="device/google/lynx-kernel"
-        remote="aosp-lynx" 
-        revision="main"
+    <project path="device/google/lynx-kernels/5.10"
+        name="device/google/lynx-kernels/5.10"
+        remote="aosp-lynx"
 	clone-depth="1" />
 </manifest>
 
