@@ -11,11 +11,11 @@
     <project path="device/google/lynx" 
         name="device_google_lynx"
         remote="razinares" 
-        revision="Evolution-X" />
+        revision="evox-9" />
     <project path="device/google/gs201" 
         name="device_google_gs201"
         remote="razinares" 
-        revision="evolution-x" />
+        revision="evox-9" />
     <project path="device/google/gs101" 
         name="device_google_gs101"
         remote="evolution-x" 
